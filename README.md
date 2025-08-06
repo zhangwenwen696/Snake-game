@@ -1,2 +1,33 @@
-# Snake-game
- There's a green snake on the screen, and you can control its movement up, down, left, and right using the arrow keys. The red squares are food—when the snake eats the food, it grows longer and your score increases. The game ends if the snake hits the wall or its own body. There are also start and restart buttons on the interface.
+# Snake Game（贪吃蛇游戏）  <!-- 一级标题：项目名称 -->
+
+一个基于 Python 和 Pygame 的简化版贪吃蛇游戏，适合新手学习游戏开发基础。
+
+
+## 项目介绍  <!-- 二级标题：核心说明 -->
+
+这是一个经典的贪吃蛇小游戏，玩家通过方向键控制蛇移动，吃食物增长长度并得分，撞到墙壁或自身则游戏结束。支持难度分级和中文显示。
+
+
+## 功能特性  <!-- 二级标题：主要功能 -->
+
+### 核心玩法  <!-- 三级标题：功能细分 -->
+- 方向键控制蛇的移动（上/下/左/右）。
+- 吃到红色食物后，蛇身变长，分数增加。
+- 碰撞检测：撞到墙壁或自身时游戏结束。
+
+### 附加功能  <!-- 三级标题：其他功能 -->
+- 开始/结束界面：包含“开始游戏”“重新开始”“退出”按钮。
+- 分数实时显示：游戏过程中左上角显示当前分数。
+- 难度分级：每得 100 分自动升一级，等级越高，蛇移动速度越快（最高 10 级）。
+
+
+## 安装与运行  <!-- 二级标题：操作指南 -->
+
+### 环境要求  <!-- 三级标题：前置条件 -->
+- Python 3.6 及以上版本（推荐 3.10+）。
+- Pygame 库（用于图形界面和交互）。
+
+### 安装步骤  <!-- 三级标题：具体操作 -->
+1. 克隆仓库到本地：
+   ```bash
+   git clone https://github.com/你的用户名/snake-game.git
